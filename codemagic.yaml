@@ -17,7 +17,7 @@ workflows:
                 - google_play # <-- (Includes GCLOUD_SERVICE_ACCOUNT_CREDENTIALS <-- Put your google-services.json)
                 - other
             vars:
-                PACKAGE_NAME: "YOUR_PACKAGE_NAME" # <-- Put your package name here e.g. com.domain.myapp
+                PACKAGE_NAME: "com.ha.codemagic.tv" # <-- Put your package name here e.g. com.domain.myapp
             node: v16.11.1
         triggering:
             events:
@@ -95,7 +95,7 @@ workflows:
                 BUNDLE_ID: "YOUR_BUNDLE_ID_HERE" # <-- Put your Bundle Id here e.g com.domain.myapp
                 APP_STORE_APP_ID: 1555555551 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
             node: v16.11.1
-            xcode: 12.5
+            xcode: 13.4
             cocoapods: default
         triggering:
             events:
