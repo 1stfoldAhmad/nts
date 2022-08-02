@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "tv",
+    "slug": "tv",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
